@@ -1,43 +1,20 @@
 
 /* Your CSS Code here. */
 body {
-  font-family: Arial, sans-serif;
-  background: #000;
-  color: #fff;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
-header {
-  text-align: center;
-  background: #111;
-  padding: 15px;
-  border-radius: 8px;
+header, nav, .summary, #actor, #quote, aside, footer {
+    margin-bottom: 20px;
 }
 
 nav a {
-  color: #00bfff;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
 }
 
-section, aside, footer {
-  background: #111;
-  margin: 20px 0;
-  padding: 15px;
-  border-radius: 8px;
-}
-
-h2 {
-  color: #ffd700;
-}
-
-blockquote {
-  font-style: italic;
-  color: #87cefa;
-}
-
-footer {
-  text-align: center;
-  color: #66ff66;
+h1, h2 {
+    color: #333;
 }
