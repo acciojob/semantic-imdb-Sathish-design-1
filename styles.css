@@ -1,11 +1,10 @@
-
 /* Your CSS Code here. */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
-header, nav, .summary, #actor, #quote, aside, footer {
+header, nav, #actor, #quote, aside, footer {
     margin-bottom: 20px;
 }
 
@@ -17,4 +16,11 @@ nav a {
 
 h1, h2 {
     color: #333;
+}
+
+/* Optional: Add styles for aside */
+aside {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 10px; /* Some padding for better spacing */
+    border: 1px solid #ddd; /* Optional border for definition */
 }
